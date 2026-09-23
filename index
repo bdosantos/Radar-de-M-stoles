@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <title>Parque Nelson Mandela</title>
 
-  <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+  <!-- Librería A-Frame -->
+  <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
 </head>
 
 <body>
 
   <a-scene>
-
+   
     <!-- Modelo 3D -->
-    <a-entity
-      gltf-model="url(parque2.glb)"
-      position="0 0 0"
-      rotation="0 0 0"
-      scale="1 1 1">
-    </a-entity>
+    <a-asset-item id="museo" src="museo2.glb"></a-asset-item>
 
     <!-- Cámara -->
     <a-entity
